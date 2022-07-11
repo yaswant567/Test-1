@@ -1,5 +1,5 @@
 import React from 'react';
-// import './App.css';
+//import './App.css';
 import img from "./image/1.jpg";
 import img1 from "./image/2.jpg";
 import img2 from "./image/3.jpg";
@@ -12,10 +12,10 @@ function App() {
   return (
     
     <>
-    <Cards name="card1" img={img}/>
-    <Cards name="card2"  img={img1}/>
-    <Cards name="card3" img={img2}/>
-    <Cards name="card4" img={img3}/>
+    <Cards name="Alexa Speaker" img={img}/>
+    <Cards name="Game support set"  img={img1}/>
+    <Cards name="PS" img={img2}/>
+    <Cards name="Speaker" img={img3}/>
     </>
   );
 }

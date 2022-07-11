@@ -11,7 +11,7 @@ const cards = (props) => {
                 <img src={props.img} style={{width: 240}}className="card-img-top " alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">{props.name}</h5>
-                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p className="card-text">$ 200</p>
                         <a href="#" className="btn btn-primary ">Add items</a>
                         <a href="#" className="btn btn-success m-2">Make an offer</a>
                     </div>
